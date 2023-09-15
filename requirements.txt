@@ -1,0 +1,4 @@
+aiohttp~=3.8.5
+psutil~=5.9.5
+requests~=2.31.0
+tasmotadevicecontroller~=0.0.8
