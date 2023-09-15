@@ -121,15 +121,15 @@ class CycleBattery(object):
     def run(self):
         try:
             if self.check_precondition():
-                start_time = time()
                 self.caffeinate_process = subprocess.Popen(["caffeinate", "-d"])
                 if not self.only_drain:
                     self.wait_for_full_battery()
                 else:
                     print('Only Daring battery mode')
+                start_time = time()
                 self.do_battery_drain()
                 elapsed_time = time() - start_time
-                print(f"Drain took {elapsed_time / 60} minutes to run.")
+                print(f"Drain(drain part only) took {elapsed_time / 60} minutes to run.")
             else:
                 print('Skipping, Please connect power source')
         finally:
