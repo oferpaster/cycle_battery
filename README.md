@@ -11,6 +11,8 @@ Tasmota Smart Plug was used for testing.
 
 DECLAIMER: Do not run it every day!
 
+Note: The application will not put any stress on the CPU, so you can continue working normally while it is running. 
+
 ## Installation
 
 Clone the repo:
