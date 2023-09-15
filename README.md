@@ -59,7 +59,7 @@ python run.py Tasmota --ip_address 192.168.31.158
 
 Using HTTP:
 ```
-python run.py HTTP --address_on http://XXXXXX/plug_on --address_off http://XXXXXX/plug_on
+python run.py HTTP --address_on http://XXXXXX/plug_on --address_off http://XXXXXX/plug_off
 ```
 
 Drain Only Mode:
